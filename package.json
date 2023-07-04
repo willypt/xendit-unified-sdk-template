@@ -1,0 +1,22 @@
+{
+  "name": "xendit-unified-sdk-template",
+  "version": "0.0.1",
+  "description": "Xendit's Unified SDK repo and templates",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:go": "openapi-generator-cli generate -g go -i api_docs/balance.yaml -o clients/go -t template/xen-go",
+    "build:php": "openapi-generator-cli generate -g php -i api_docs/balance.yaml -o clients/php -t template/xen-php",
+    "build:python": "openapi-generator-cli generate -g python -i api_docs/balance.yaml -o clients/python -t template/xen-python",
+    "build:typescript": "openapi-generator-cli generate -g typescript -i api_docs/balance.yaml -o clients/typescript -t template/xen-typescript",
+    "push:go": "echo \"Not Implemented... Yet\" && exit 0",
+    "push:php": "echo \"Not Implemented... Yet\" && exit 0",
+    "push:python": "echo \"Not Implemented... Yet\" && exit 0",
+    "push:typescript": "echo \"Not Implemented... Yet\" && exit 0"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@openapitools/openapi-generator-cli": "^2.6.0"
+  }
+}

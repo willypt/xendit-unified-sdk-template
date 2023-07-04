@@ -1,0 +1,6 @@
+node_modules
+
+####
+# `clients` will be generated via `npm run build:<target>` and be pushed via `npm run push:<target>` – hence, it will be excluded
+####
+# clients
