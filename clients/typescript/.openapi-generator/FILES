@@ -1,0 +1,8 @@
+.gitignore
+.openapi-generator-ignore
+api.ts
+api/apis.ts
+api/balancesApi.ts
+git_push.sh
+model/balance.ts
+model/models.ts
