@@ -1,8 +1,7 @@
 .gitignore
-.openapi-generator-ignore
 api.ts
 api/apis.ts
 api/balancesApi.ts
-git_push.sh
+images/hero.jpg
 model/balance.ts
 model/models.ts

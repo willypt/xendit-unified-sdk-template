@@ -1,0 +1,6 @@
+files:
+  images/hero.jpg:
+    folder: images
+    destinationFilename: hero.jpg
+    templateType: SupportingFiles
+
